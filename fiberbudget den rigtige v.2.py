@@ -22,10 +22,12 @@ def Bruttooverskud(linktab):
     if sum1>0:
           print("Modul kan bruges")
           groen.on()
+          sleep(3)
           return start
     else:
           print("kan ikke bruges, lav ny beregning")
           roed.on()
+          sleep (3)
           return start
 
 
